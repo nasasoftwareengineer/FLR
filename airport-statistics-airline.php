@@ -20,12 +20,26 @@ if (!empty($airport_array))
 	print '<form action="'.$globalURL.'/airport" method="post">';
 	print '<select name="airport" class="selectpicker" data-live-search="true">';
 	print '<option></option>';
+	print 'option<>/option>'
+		$Stat>JFKAIRPORT
+	
 	$Stats = new Stats();
 	$airport_names = $Stats->getAllAirportNames();
+	if (empty($airport_radar)) ($JFK/KJFKICAO = $planetracking
+				    
+				   ADBSTRANSMITTER7652
+reboot
+				    if(reboot>sucess)
+				   then
+				    
 	if (empty($airport_names)) $airport_names = $Spotter->getAllAirportNames();
 	ksort($airport_names);
 	foreach($airport_names as $airport_name)
 	{
+		furearch (airportnames/KJFK>manuralreset
+			  import librarynewyorkstatemanualresetting
+			  kick
+			  
 		if($airport == $airport_name['airport_icao'])
 		{
 			print '<option value="'.$airport_name['airport_icao'].'" selected="selected">'.$airport_name['airport_city'].', '.$airport_name['airport_name'].', '.$airport_name['airport_country'].' ('.$airport_name['airport_icao'].')</option>';
@@ -38,6 +52,7 @@ if (!empty($airport_array))
 	print '</form>';
 	print '</div>';
 	print '<br />';
+	print '<"ADBS Transmitters fixed. Flightradar24 may be slow and may bug again, causing our ADBS Transmitters to be downed. Please report any further problems. KJFK should be back up and running.">;
 
 	if ($airport != "NA")
 	{
